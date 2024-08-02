@@ -1,14 +1,14 @@
 ---
-name: Bryan
-surname: Jenks
-position: "Information Technology Specialist II"
-address: "Covered California"
-profilepic: "./img/me.jpg"
-www: "bryanjenks.dev"
-email: "bryan@bryanjenks.dev"
-github: tallguyjenks
-linkedin: bryanjenks
-orcid: 0000-0002-9604-3069
+name: Victor Elias
+surname: Mina Solorzano
+position: "Sr. It Recluiter"
+address: "Narvarte, Mexico City"
+#profilepic: "./img/me.jpg"
+#www: "bryanjenks.dev"
+email: "eminasol@outlook.com"
+github: hukitan
+linkedin: eminaso
+#orcid: 0000-0002-9604-3069
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
 aboutme: "I have been writing production software in a variety of languages for over 8 years for various California State Government Agencies. I have a deep driven passion for software, automation, and data Engineering. This very CV was even compiled with code."
@@ -64,7 +64,6 @@ edu %>%
     what = degree,
     why = detail,
     when = glue::glue("{startYear} --> {endYear}",.na = ""),
-    where = where
   )
 
 ```

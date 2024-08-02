@@ -1,6 +1,6 @@
 projects <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "MuleSoft Platform Implementation", "Covered California", 2024, "Covered California IT Data Team", "Implemented the MuleSoft Anypoint Platform for Covered California involving infrastructure and developer tooling such as CICD and GitHub based automation.",
+   "MuleSoft Platform Implementation", "Covered California", 2024, "Covered California IT Data Team", "Implemented the MuleSoft Anypoint Platform for Covered California involving infrastructure and developer tooling such as CICD and GitHub based automation.",
     "Lean Six Sigma Green Belt --- Reception Center Intake Process", "California Correctional Health Care Services", 2019, "Region 1 Quality Management", "Completed a Lean Six Sigma Green Belt project on the reception center medical screening process at San Quentin State Prison improving compliance from 2% and a baseline capability aggregate of 29.96% compliance to 84% during the transition phase of the project through application of the lean 6 methodologies and tools. Scope of project affects 6 total state prisons with 3 more to be positively impacted by state wide changes resulting from this project",
     "Universal Data Scrubber", "California Correctional Health Care Services", 2018, "Region 1 Quality Management", "Creation of a Universal Data Scrubbing tool sent statewide to take most department SQL Report Server exports and turn them into raw data sets for Excel Analytics for end user staff"
 )
@@ -44,14 +44,9 @@ honors <- tribble(
 )
 
 edu <- tribble(
-    ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
-    "Bachelors Data Analytics & Data Management", 2020, 2023, "Western Governors University", "Online", NA,
-    "Statistics I & II", 2019, 2019, "American Council on Education - Statistics.com", "Online", NA,
-    "Associate of Art (A.A.) Physical Education Teaching and Coaching", 2012, 2015, "Cosumnes River College", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
-    "Associate of Science (A.S.) Liberal Arts: Math and Science", 2012, 2015, "Cosumnes River College", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
-    "Pre-Calculus", 2011, 2011, "San Joaquin Delta College", "Stockton - California", NA,
-    "Diploma", 2007, 2011, "Galt High School", "Galt - California", "AP English Literature",
-    "Diploma", 2007, 2011, "Galt High School", "Galt - California", "AP US Government"
+    ~degree, ~startYear, ~endYear, ~inst, ~detail,
+    "Bachelors in Pychology", 2012, 2018, "UNAM", NA,
+    # "Statistics I & II", 2019, 2019, "American Council on Education - Statistics.com", "Online", NA,
 )
 
 work <- tribble(
